@@ -4,10 +4,10 @@ function Footer({ handelToggleSidebar, data , date, setDate}) {
 
 
     return (
-        <div className='w-screen fixed bottom-0 left-0 flex justify-between pr-6'>
+        <div className='w-screen fixed bottom-0 left-0 flex justify-between pr-6 pl-4'>
             <div>
                 <div className='pb-10'>
-                    <p className="text-lg font-bold ">If you want to see a specific date image just select data</p>
+                    <p className="text-lg font-bold ">If you want to see a specific date image, just select date</p>
                     <input
                         type="date"
                         min="1995-06-16" // ✅ APOD's first available image

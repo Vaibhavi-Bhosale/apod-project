@@ -32,12 +32,7 @@ function App() {
 
     fetchData();
 
-
-
   }, [date])
-
-
-
 
   if (!data) {
     return (
@@ -48,20 +43,13 @@ function App() {
   }
   return (
     <>
-
       <div className='relative w-full '>
         <Main data={data} />
-
-
         {togglesidebar ?
           <Sidebar handelToggleSidebar={handelToggleSidebar} data={data} />
           : <Footer handelToggleSidebar={handelToggleSidebar} data={data} date={date} setDate={setDate} />}
-
-
-
       </div>
     </>
-
   )
 }
 

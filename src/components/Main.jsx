@@ -31,7 +31,6 @@ function Main({ data }) {
       <img
         className="object-cover md:w-full md:h-auto sm:w-auto sm:h-full"
         src={data.url} alt={data.title} />
-
     </div>
   )
 }
